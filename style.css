@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 240px;
+  background-color: #272d3467;
+}
+
+nav {
+  width: 60%;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+li:hover{
+  color: #cdba6d;
+  cursor: pointer;
+}
+
+#search-icon {
+  color: #fff;
+  cursor: pointer;
+}
+
+#search-icon:hover {
+  color: #cdba6d;
+}
+
+.logo {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.logo-img {
+  width: 40%;
+  height: auto;
+}
+
+.logo-text {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.logo-text:hover {
+  color: #cdba6d;
+}
+
+.home-container {
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100vw;
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+}
+
+.presentation-container {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  margin-top: 150px;
+  padding: 10px;
+  color: #fff;
+}
+
+.presentation-container h3 {
+  letter-spacing: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.presentation-container h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.presentation-container span {
+  color: #c8b050;
+}
+
+.presentation-container p {
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.presentation-container button {
+  width: 150px;
+  height: 50px;
+  background-color: #cdba6d;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  border: 2px solid #c8b050;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.presentation-container button:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.destaks-container {
+  width: 100%;
+  height: 300px;
+  padding: 0 100px;
+  position: absolute;
+  top: 115vh;
+}
+
+.destaks-content {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100%;
+}
+
+.content {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+#square-1 {
+  background-color: #353e47;
+}
+
+#square-2 {
+  background-color:  #323a43;
+}
+
+#square-3 {
+  background-color:  #2e353d;
+}
+
+.welcome-container {
+  width: 100vw;
+  height: 140vh;
+}
+
+.signature-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.signature-content {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: end;
+}
+
+.signature-text {
+  width: 70%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 30px;
+  padding: 0 10px;
+  margin-bottom: 90px;
+}
+
+.signature-title {
+  width: 100%;
+}
+
+.signature-title h1 {
+  font-size: 2.5rem;
+  color: #cdba6d;
+}
+
+.signature-title h5 {
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+.signature-text span {
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.signature-text p {
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+}
+
+.signature-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.signature-button-container button {
+  width: 150px;
+  height: 50px;
+  background-color: #cdba6d;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  border: 2px solid #c8b050;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.signature-button-container button:hover {
+  background-color: #fff;
+}
+
+.signature-button-container img {
+  width: 100px;
+  height: auto;
+}
+
+.attorney-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: end;
+}
+
+.attorney-img {
+  margin-left: 50px;
+}
+
+
