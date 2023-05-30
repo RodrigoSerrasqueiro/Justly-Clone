@@ -503,3 +503,135 @@ li:hover{
   background-size: cover;
   background-position: 50% 50%;
 }
+
+.form-container {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+}
+
+.form-img {
+  background-image: url('./assets/banner1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}
+
+.form-content {
+  background-color: #323a43;
+  width: 50%;
+  height: 100%;
+  padding: 120px 80px 60px 80px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+}
+
+.form-title {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-title h2 {
+  margin: 0;
+  font-size: 1.3rem;
+  letter-spacing: 6px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.form-title h1 {
+  margin: 0;
+  font-size: 3.5rem;
+  color: #c8b050;
+}
+
+#form-divider {
+  width: 15%;
+  margin-top: 20px;
+}
+
+.form-description {
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.form-inputs {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-inputs {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 295px;
+}
+
+.user-input {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  color: #2e353d;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+}
+
+#user-phone-input {
+  margin-top: 10px;
+  width: 100%;
+}
+
+#user-message-input {
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+}
+
+#user-message {
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  resize: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  color: #2e353d;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.submit-button {
+  width: 175px;
+  height: 60px;
+  background-color: #c8b050;
+  color: #2e353d;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  border: 2px solid #cdba6d;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 60px;
+}
+
+.submit-button:hover {
+  background-color: transparent;
+  color: #fff;
+}
