@@ -9,10 +9,6 @@
   text-decoration: none;
 }
 
-body {
-  width: 100vw;
-}
-
 header {
   position: fixed;
   top: 0;
@@ -157,24 +153,69 @@ li:hover{
 }
 
 .content {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   row-gap: 20px;
+  color: #fff;
+  padding: 0 110px;
 }
 
 #square-1 {
   background-color: #353e47;
 }
 
+#square-1 i {
+  color: #c8b050;
+  font-size: 3rem;
+}
+
+.destaks-span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.destaks-paragraph {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+#destaks-span-gold {
+  color: #c8b050;
+}
+
+
 #square-2 {
   background-color:  #323a43;
 }
 
+#gavel-icon {
+  font-size: 3rem;
+}
+
 #square-3 {
   background-color:  #2e353d;
+  padding: 0 100px;
+}
+
+#square-3 i {
+  color: #c8b050;
+  font-size: 3rem;
+}
+
+.divider {
+  border: none;
+  border-top: 3px solid #c8b050;
+  border-radius: 20px;
+  margin: 10px 0;
+  width: 45%;
+}
+
+#divider-white {
+  border-top: 3px solid #fff;
 }
 
 .welcome-container {
@@ -270,4 +311,95 @@ li:hover{
   margin-left: 50px;
 }
 
+.our-services-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #323a43;
+  display: flex;
+  flex-direction: column;
+}
 
+.our-services-title {
+  height: 30%;
+  width: 100%;
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-services-title h2 {
+  margin: 0;
+  font-size: 1.3rem;
+  letter-spacing: 6px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.our-services-title h1 {
+  margin: 0;
+  font-size: 3.5rem;
+  color: #c8b050;
+}
+
+#our-services-divider {
+  width: 5%;
+}
+
+.our-services-content {
+  width: 100%;
+  height: 50%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 120px;
+  margin-top: 30px;
+}
+
+.our-services-square {
+  display: flex;
+  width: 100%;
+  height: 200px;
+}
+
+.our-services-icon {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.our-services-text {
+  width: 85%;
+  height: 100%;
+  padding: 20px 40px 0 10px;
+}
+
+#service-icon {
+  color: #c8b050;
+  font-size: 3rem;
+}
+
+#service-icon:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.service-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+}
+
+.service-title:hover {
+  color: #c8b050;
+  cursor: pointer;
+}
+
+.service-description {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
