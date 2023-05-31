@@ -915,6 +915,7 @@ footer {
 
   .attorney-img {
     margin-left: 10px;
+    width: 90%;
   }
 
   .our-services-content {
@@ -1008,6 +1009,9 @@ footer {
     height: 25%;
     justify-content: end;
   }
+  .attorney-img {
+    width: auto;
+  }
   .attorney-container {
     width: 95%;
     height: 30%;
@@ -1020,5 +1024,142 @@ footer {
   .our-services-text {
     width: 95%;
     padding: 20px 10px 0 10px;
+  }
+}
+
+@media (max-width: 415px) {
+  header {
+    padding: 0 10px;
+  }
+
+  .home-container {
+    background-position: 70% 50%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .presentation-container {
+    width: 100%;
+    height: 60%;
+  }
+  
+  .presentation-container h3 {
+    text-align: center
+  }
+  
+  .presentation-container h1 {
+    font-size: 3rem;
+  }
+
+  .destaks-container {
+    padding: 0 10px;
+  }
+  .welcome-container {
+   height: 2050px;
+   align-items: end;
+  }
+
+  .signature-content {
+    height: 600px;
+  }
+
+  .signature-text {
+    width: 95%;
+    height: 90%;
+    row-gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .attorney-container {
+    height: 400px;
+  }
+
+  .attorney-img {
+    margin-left: 10px;
+    width: 90%;
+    height: 390px;
+  }
+
+  .our-services-container {
+    height: 1550px;
+  }
+
+  .our-services-title {
+    margin-top: 120px;
+    padding-top: 20px;
+    height: 15%;
+  }
+
+  .our-services-title h1 {
+    text-align: center;
+  }
+
+  #our-services-divider {
+    width: 30%;
+  }
+
+  .our-services-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .testimonials-container {
+    height: 130vh;
+  }
+
+  .testimonials-cards-container {
+    padding: 0 5px;
+    
+  }
+
+  .testimonials-title h1 {
+    font-size: 2.5rem;
+  }
+
+  .cards {
+    margin-bottom: 20px;
+  }
+
+  .form-title h2 {
+    font-size: 1rem;
+  }
+
+  .form-title h1 {
+    font-size: 2rem;
+  }
+
+  .form-container {
+    height: 200vh;
+  }
+  .form-content {
+    padding: 120px 10px 60px 10px;
+  }
+
+  footer {
+    padding: 50px 10px 0 10px;
+    height: 150vh;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-text {
+    width: 100%;
+    height: 40%;
+  }
+
+  .theme-posts {
+    width: 100%;
+    height: 45%;
+  }
+
+  .post-content {
+    padding: 0 10px;
+  }
+
+  .about-text {
+    row-gap: 20px;
   }
 }
