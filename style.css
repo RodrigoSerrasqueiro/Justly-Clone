@@ -19,6 +19,7 @@ header {
   justify-content: space-between;
   padding: 0 240px;
   background-color: #272d3467;
+  z-index: 1;
 }
 
 .logo {
@@ -82,6 +83,17 @@ li:hover{
   cursor: pointer;
 }
 
+.modal {
+  width: 100%;
+  height: 130vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .home-container {
   background-image: url('./assets/background.jpg');
   background-size: cover;
@@ -102,6 +114,7 @@ li:hover{
   margin-top: 150px;
   padding: 10px;
   color: #fff;
+  z-index: 1;
 }
 
 .presentation-container h3 {
